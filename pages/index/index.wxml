@@ -1,0 +1,94 @@
+<view class="wrap">
+  <view class="platforms">
+    <text class="platforms-title">「佩奇无水印视频下载」暂仅支持抖音，将逐步支持以下所有平台 </text>
+    <view class="page-body">
+      <view class="page-section page-section-spacing swiper">
+        <swiper>
+          <swiper-item>
+            <view class="swiper-item {{item}}">
+              <view class="platforms-item">
+                <image src="../../images/douyin.png"></image>
+                <!-- <text>抖音</text> -->
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/kuaishou.png"></image>
+                <!-- <text>快手</text> -->
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/weibo.png"></image>
+                <!-- <text>微博</text> -->
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/zhihu.png"></image>
+                <!-- <text>知乎</text> -->
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/wangyiyun.png"></image>
+              </view>
+            </view>
+            <view class="swiper-item {{item}}">
+              <view class="platforms-item">
+                <image src="../../images/toutiao.png"></image>
+                <!-- <text>今日头条</text> -->
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/momo.png"></image>
+                <!-- <text>陌陌</text> -->
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/bilibili.png"></image>
+                <!-- <text>bilibili</text> -->
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/vuevlog.png"></image>
+                <!-- <text>vuevlog</text> -->
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/kaiyan.png"></image>
+              </view>
+            </view>
+          </swiper-item>
+        </swiper>
+      </view>
+    </view>
+  </view>
+  <view class="watermark">
+    <view class="watermark-input">
+      <input bindinput="mousuosuo_input" id="inputText" placeholder=" 请将刚才复制的链接，粘贴到这里" type="text" value="{{defaultUrl}}"></input>
+      <button bindtap="mousuosuo_clear" id="clearInputText">
+        <image src="../../images/icon-clear.png" wx:if="{{videoUrl==''}}"></image>
+        <image src="../../images/icon-clear-active.png" wx:else></image>
+      </button>
+    </view>
+    <button bindgetuserinfo="getUserInfo" class="parsing" hoverClass="parsing-btn-hover" openType="getUserInfo">一键去水印</button>
+    <!-- <ad unitId="adunit-c0c3a4f8e7555786"></ad> -->
+    <view class="faq">
+      <view class="faq-header">
+        <text class="faq-header-title">常见问题</text>
+      </view>
+      <view class="faq-content">
+        <view bindtap="mousuosuo_showSvPro" class="faq-content-list" data-index="0">
+          <text>问： 如何使用？</text>
+        </view>
+        <view bindtap="mousuosuo_showSvPro" class="faq-content-list" data-index="1">
+          <text>答： 在视频播放页面找到「分享」按钮，点击，找到「复制链接」按钮,点击。</text> 
+        </view>
+        <view bindtap="mousuosuo_showSvPro" class="faq-content-list" data-index="2">
+          <text>问： 为什么视频成功解析后还有水印？</text>
+        </view>
+        <view bindtap="mousuosuo_showSvPro" class="faq-content-list" data-index="0">
+          <text>答： 此视频上传到平台前的源视频已带水印。</text>
+        </view>
+        <view bindtap="mousuosuo_showSvPro" class="faq-content-list" data-index="1">
+          <text>问： 为什么无法下载视频？</text> 
+        </view>
+        <view bindtap="mousuosuo_showSvPro" class="faq-content-list" data-index="2">
+          <text>答：请先授权「保存到相册」</text>
+        </view>
+      </view>
+      <view class="copyright">
+       <text>永远记得 为人民服务 © 2020 刘健 </text>
+      </view>
+    </view>
+  </view>
+</view>
