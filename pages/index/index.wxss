@@ -12,7 +12,8 @@ page {
 }
 
 .page-body {
-    height: 120rpx;
+    height: 60rpx;
+    /* 120 */
     padding-top: 8rpx;
    
 }
@@ -26,7 +27,7 @@ page {
 }
 
 .page-section swiper {
-    height: 120rpx;
+    height:171rpx;
     
 }
 
@@ -126,6 +127,7 @@ button:last-child {
     overflow: hidden;
     display: block;
     margin-bottom: 14rpx;
+    margin-top: 25rpx
 }
 
 .page-section-title {
@@ -154,10 +156,10 @@ button:last-child {
 
 .platforms-title {
     display: block;
-    font-size: 22rpx;
+    font-size: 26rpx;
     color: #666;
     text-align: center;
-    padding-top: 8rpx;
+    margin-top: 25rpx;
 }
 
 .platforms-title::before,.platforms-title::after {
@@ -192,9 +194,9 @@ button:last-child {
 
 .platforms-item image {
     display: block;
-    width: 40rpx;
-    height: 40rpx;
-    margin: 4rpx auto;
+    width: 55rpx;
+    height: 55rpx;
+    margin: 3rpx auto;
 }
 
 /* .platforms-item text {
@@ -234,8 +236,8 @@ button:last-child {
 .watermark {
     position: relative;
     background-color: #fff;
-    border-top-left-radius: 10rpx;
-    border-top-right-radius: 10rpx;
+    border-top-left-radius: 32rpx;
+    border-top-right-radius: 32rpx;
     padding-top: 100rpx;
     top: 565rpx;
     z-index: 9;
@@ -247,7 +249,7 @@ button:last-child {
     top: -110rpx;
     left: 48%;
     width: 700rpx;
-    height: 100rpx;
+    height: 80rpx;
     margin-left: -332rpx;
     z-index: 9;
     background-color: #0000;
@@ -268,7 +270,7 @@ button:last-child {
     width: 100rpx;
     height: 100%;
     border: none;
-    background-color: #e8453c;
+    background-color: #fff;
     align-items: center;
 }
 
@@ -278,7 +280,7 @@ button:last-child {
 
 #clearInputText image {
     display: block;
-    width: 60rpx;
+    width: 50rpx;
     height: 50rpx;
 }
 
@@ -288,10 +290,10 @@ button:last-child {
     width: 264rpx;
     height: 100rpx;
     line-height: 100rpx;
-    color: white;
+    color: #fff;
     background-color: #e8453c;
     box-shadow: 0 14rpx 28rpx hsla(0,11%,15%,0.4);
-    margin-top: -80rpx;
+    margin-top: -30rpx;
 }
 
 /* .appreciate {
@@ -372,7 +374,18 @@ button:last-child {
 .copyright {
   text-align: center;
   color: #666;
-  margin-top: 150rpx;
+  margin-top: 100rpx;
   font-size: 16rpx;
   /* border:1rpx solid red */
+}
+
+.bt{
+  width: 180rpx;
+  height: 58rpx;
+  background-color: #e8453c;
+  font-size: 22rpx;
+  color: #fff;
+  top: 180rpx; 
+  box-shadow: 0 14rpx 28rpx hsla(0,11%,15%,0.4);
+
 }

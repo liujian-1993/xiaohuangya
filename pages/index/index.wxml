@@ -1,6 +1,6 @@
 <view class="wrap">
   <view class="platforms">
-    <text class="platforms-title">「小黄鸭去水印视频下载」暂仅支持抖音，将逐步支持以下所有平台 </text>
+    <text class="platforms-title">「小黄鸭下载」小程序暂仅支持抖音，将逐步支持以下所有平台 </text>
     <view class="page-body">
       <view class="page-section page-section-spacing swiper">
         <swiper>
@@ -51,6 +51,7 @@
         </swiper>
       </view>
     </view>
+      <button class="bt" open-type="share">转发小程序</button>
   </view>
   <view class="watermark">
     <view class="watermark-input">
@@ -86,6 +87,7 @@
           <text>答：请先授权「保存到相册」</text>
         </view>
       </view>
+      
       <view class="copyright">
        <text>永远记得 为人民服务 © 2020 刘健 </text>
       </view>

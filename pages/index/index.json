@@ -1,6 +1,6 @@
 {
   "usingComponents": {},
-  "navigationBarTitleText": "小黄鸭去水印视频下载",
-  "navigationBarBackgroundColor": "#fff",
-  "navigationBarTextStyle": "black"
+  "navigationBarTitleText": "小黄鸭下载",
+  "navigationBarBackgroundColor": "#e8453c",
+  "navigationBarTextStyle": "white"
 }
