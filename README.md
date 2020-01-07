@@ -45,5 +45,3 @@ wx.saveVideoToPhotosAlbum({
 })
 ```
 
-![AckyLin](https://github.com/AckyLin/DouYin_QuShuiYing/blob/master/1.png)
-![AckyLin](https://github.com/AckyLin/DouYin_QuShuiYing/blob/master/2.jpg)
