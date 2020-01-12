@@ -21,7 +21,7 @@ Page({
       console.log(ops.target)
     }
     return {
-      title: '转发dom',
+      title: '抖音视频去水印下载，还有快手、陌陌、微博、知乎、等全网视频去水印下载，敬请期待',
       path: `pages/index/index`,
       success: function (res) {
         // 转发成功

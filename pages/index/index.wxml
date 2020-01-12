@@ -51,7 +51,7 @@
         </swiper>
       </view>
     </view>
-      <button class="bt" open-type="share">转发小程序</button>
+      <!-- <button class="bt" open-type="share">转发小程序</button> -->
   </view>
   <view class="watermark">
     <view class="watermark-input">

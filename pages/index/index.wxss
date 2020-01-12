@@ -246,7 +246,7 @@ button:last-child {
 
 .watermark-input {
     position: absolute;
-    top: -110rpx;
+    top: -200rpx;
     left: 48%;
     width: 700rpx;
     height: 80rpx;
@@ -293,7 +293,7 @@ button:last-child {
     color: #fff;
     background-color: #e8453c;
     box-shadow: 0 14rpx 28rpx hsla(0,11%,15%,0.4);
-    margin-top: -30rpx;
+    margin-top: -150rpx;
 }
 
 /* .appreciate {
@@ -314,7 +314,7 @@ button:last-child {
 
 .faq {
     width: 745rpx;
-    margin: 1rpx auto 0;
+    margin-top: 100rpx
 }
 
 .faq-header {
@@ -374,12 +374,12 @@ button:last-child {
 .copyright {
   text-align: center;
   color: #666;
-  margin-top: 100rpx;
+  margin-top: 150rpx;
   font-size: 16rpx;
   /* border:1rpx solid red */
 }
 
-.bt{
+/* .bt{
   width: 180rpx;
   height: 58rpx;
   background-color: #e8453c;
@@ -388,4 +388,4 @@ button:last-child {
   top: 180rpx; 
   box-shadow: 0 14rpx 28rpx hsla(0,11%,15%,0.4);
 
-}
+} */

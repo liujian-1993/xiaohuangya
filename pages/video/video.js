@@ -2,14 +2,14 @@
 var app = getApp(), n = ''
 Page({
     data: {
-        videoSrc: '',
+        // videoSrc: '',
         dataUrl: '',
         videoUrl: ''
     },
   onLoad: function (options) {
         this.getdataUrl('dataUrl')
         this.setData({
-            videoSrc: app.globalData.videoSrc,
+            // videoSrc: app.globalData.videoSrc,
             dataUrl: this.getdataUrl('dataUrl'),
             videoUrl: decodeURIComponent(options.videoUrl)
         })
@@ -31,7 +31,9 @@ Page({
     },
     download: function () {
       var t = this, e = 'https://www.i847.cn/qushuiyin/down?url='+this.data.videoUrl 
-        // var t = this, e = t.data.dataUrl // o.default + '/downVideo.php?url=' + this.data.dataUrl
+        // var t = this, e = t.data.dataUrl 
+        // o.default + '/downVideo.php?url=' + this.data.dataUrl
+        // response.setContentType("video/mp4");
         wx.showLoading({
             title: '保存中 0%'
         }), (n = wx.downloadFile({
@@ -48,6 +50,7 @@ Page({
                         }, 1e3)
                     },
                     fail: function (o) {
+                        console.log(o)
                         t.showToast('保存失败')
                     }
                 })

@@ -12,8 +12,8 @@
     height: 88rpx;
     line-height: 88rpx;
     color: #fff;
-    background-color: #337AFF;
-    box-shadow: 0 14rpx 28rpx rgba(51,122,255,.3);
+    background-color: #e8453c;
+    box-shadow: 0 14rpx 28rpx hsla(0,11%,15%,0.3);
 }
 
 .go-back {
